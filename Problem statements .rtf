@@ -1,23 +1,18 @@
-{\rtf1\fbidis\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil Segoe UI;}{\f1\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
-\pard\tx720\cf1\b\f0\fs30  Serial Data Pattern Detector (1101 Detection with\f1  \f0 Overlapping)\b0\par
- \ul\b Problem Statement:\ulnone\b0\par
+ Serial Data Pattern Detector (1101 Detection with Overlapping)
 
-\pard\tx720\f1       \f0 Design an FSM that detects the binary sequence "1101" from\f1  \f0 a serial input stream. The detection should\f1  \f0 support\f1  \f0 overlapping sequences (e.g., input: 11101101 should detect\f1  \f0 twice).\par
+ Problem Statement:
+       Design an FSM that detects the binary sequence "1101" from a serial input stream. The detection should support overlapping sequences (e.g., input: 11101101 should detect twice).
 
-\pard\tx720\par
- \ul\b Inputs:\ulnone\b0\par
- clk, reset\par
- data_in (1-bit serial input)\par
-\par
-\ul\b  Outputs:\ulnone\b0\par
- \f1 D\f0 etected \f1 (1) \f0\u8594?High when the pattern 1101 is found\f1 .\par
-\f0\par
-\ul\b  States:\ulnone\b0\par
- S0: No match\par
- S1: 1 matched (1)\par
- S2: 2 matched (11)\par
- S3: 3 matched (110)\par
- S4: Pattern detected\f1  (1101)\f0\par
-}
+ Inputs:
+ clk, reset
+ data_in (1-bit serial input)
+
+ Outputs:
+ detected →   High when the pattern 1101 is found
+
+ States:
+ S0: No match
+ S1: 1 matched (1)
+ S2: 2 matched (11)
+ S3: 3 matched (110)
+ S4: Pattern detected
