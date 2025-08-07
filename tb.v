@@ -50,4 +50,3 @@ module seq_dec_tb;
     #20 $finish;
     end
 endmodule
-endmodule
