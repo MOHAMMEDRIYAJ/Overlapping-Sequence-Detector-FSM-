@@ -84,7 +84,7 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 
 ## 📂 File Structure
 
-```bash
+![File Structure](
 .
 ├── sequence_detector.v       # Verilog source file
 ├── testbench.v               # Testbench for simulation
