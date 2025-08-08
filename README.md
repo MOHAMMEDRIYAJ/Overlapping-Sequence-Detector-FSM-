@@ -84,7 +84,7 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 
 ## 📂 File Structure
 
-![File Structure](
+![File Structure](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/images/File%20structure.jpg)
 .
 ├── sequence_detector.v       # Verilog source file
 ├── testbench.v               # Testbench for simulation
