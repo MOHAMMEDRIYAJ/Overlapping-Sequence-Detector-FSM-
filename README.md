@@ -71,7 +71,7 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 
 ---
 
-## 💻 Simulation Example
+## 💻 Simulation Demo
 
 | Input Sequence | Expected Output |
 |----------------|------------------|
@@ -79,15 +79,33 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 | `11101101`     | 1 (twice)        |
 | `1101101`      | 1 (twice)        |
 
----
+🎥 [Demo Video]()<- Click here to download and watch our demo video!
 
-## 🛠️ Tools Used
-
-- **Software**: Vivado ML Edition 2024.2 (or compatible)
-- **Language**: Verilog HDL
-- **Board** *(Optional)*: Simulation or implementation on FPGA boards like ZedBoard/Zynq
+📸 **Waveform Screenshot**: ![Image]()
 
 ---
+
+## 🔍 Reports
+
+### ⚙️ Schematic Design 
+
+![Image]()
+
+### ⛓️ Resource Utilization (Post-Implementation)
+
+![Image]()
+
+### ⏱️ Timing Summary
+
+![Image]()
+
+### ⚡ Power Summary
+
+![Image]()
+
+## 🔌 Pin Assignment
+
+![Image]()
 
 ## 📂 File Structure
 
