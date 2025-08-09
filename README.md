@@ -71,6 +71,13 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 
 ---
 
+## ⌨️ Design Code
+
+![Image](
+
+
+---
+
 ## 💻 Simulation Demo
 
 | Input Sequence | Expected Output |
