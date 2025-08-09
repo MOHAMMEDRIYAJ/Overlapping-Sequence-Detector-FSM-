@@ -81,7 +81,8 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 
 🎥 [Demo Video]()<- Click here to download and watch our demo video!
 
-📸 **Waveform Screenshot**: ![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/waveform%20variables%20.jpg)(https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Waveform.jpg)
+📸 **Waveform Screenshot**: ![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/waveform%20variables%20.jpg)
+![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Waveform.jpg)
 
 ---
 
