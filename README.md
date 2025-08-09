@@ -52,6 +52,10 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 
 ---
 
+## ⚙️ State Diagram
+
+![image](
+
 ## 🔁 FSM Transition Logic
 
 | Current State | Input | Next State | Output |
