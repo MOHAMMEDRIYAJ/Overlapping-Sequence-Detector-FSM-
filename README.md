@@ -54,7 +54,7 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 
 ## ⚙️ State Diagram
 
-![image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/State%20diagram.jpg)
+![image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/State%20Diagram.jpg)
 
 ## 🔁 FSM Transition Logic
 
@@ -77,13 +77,13 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 
 ## ⌨️ Design Code
 
-![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Design.jpg)
+
 
 ---
 
 ## 🔧 Testbench
 
-![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/TestBench.jpg)
+
 
 ---
 
