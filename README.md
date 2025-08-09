@@ -95,7 +95,7 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 | `11101101`     | 1 (twice)        |
 | `1101101`      | 1 (twice)        |
 
-🎥 [Demo Video](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Output/Zedboard%20output.mp4)<- Click here to download and watch our demo video!
+🎥 [Demo Video](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/raw/refs/heads/main/Output/Zedboard%20output.mp4)<- Click here to download and watch our demo video!
 
 📸 **Waveform Screenshot**: ![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/waveform%20variables%20.jpg)
 ![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Waveform.jpg)
