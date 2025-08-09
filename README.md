@@ -15,7 +15,32 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 
 ---
 
-## 🧠 FSM Design
+## 🛠️ Specifications
+
+- Software: Vivado ML Edition (Standard) 2024.2
+- Hardware: ZedBoard Zynq-7000 ARM / FPGA SoC Development Board
+
+---
+
+## 📥 Inputs
+
+| Signal    | Width | Description            |
+|-----------|-------|------------------------|
+| `clk`     | 1-bit | Clock input            |
+| `reset`   | 1-bit | Asynchronous reset     |
+| `data_in` | 1-bit | Serial data input      |
+
+---
+
+## 📤 Output
+
+| Signal     | Width | Description                             |
+|------------|-------|-----------------------------------------|
+| `detected` | 1-bit | High for 1 cycle when pattern `1101` is found |
+
+---
+
+## 🧠 FSM States
 
 | State | Name             | Description                |
 |-------|------------------|----------------------------|
@@ -43,24 +68,6 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 | `S4`          | 0     | `S0`       | 0      |
 
 > 💡 **Note**: `S4` asserts the output (`detected = 1`) and immediately transitions based on the input for overlap handling.
-
----
-
-## 📥 Inputs
-
-| Signal    | Width | Description            |
-|-----------|-------|------------------------|
-| `clk`     | 1-bit | Clock input            |
-| `reset`   | 1-bit | Asynchronous reset     |
-| `data_in` | 1-bit | Serial data input      |
-
----
-
-## 📤 Output
-
-| Signal     | Width | Description                             |
-|------------|-------|-----------------------------------------|
-| `detected` | 1-bit | High for 1 cycle when pattern `1101` is found |
 
 ---
 
