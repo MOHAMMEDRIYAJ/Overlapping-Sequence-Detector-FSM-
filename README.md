@@ -285,11 +285,20 @@ endmodule</pre>
 
 ![image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Zedboard.jpg)
 
-[FPGA-Implementation Video]()
+[FPGA-Implementation Video](https://drive.google.com/file/d/1M2luUMGGGt-b-NWUNVjoAaKdrc7ZPfro/view?usp=drivesdk)
 
+---
 
+## 👥 Contributors
 
+Mohammed Riyaj J, Bannari Amman Institute Of Technology ([LinkedIn](https://www.linkedin.com/in/mohammedriyaj786/))
 
+Vikash R, Bannari Amman Institute Of Technology
 
+---
+
+### Notes:
+
+Working on this project has enhanced my understanding of implementing complex digital circuits on FPGAs using Verilog. It also gave me valuable insight into breaking down complex logic into smaller, manageable parts and tackling them systematically, leading to a clearer vision of FPGA design. 
 
 
