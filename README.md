@@ -253,7 +253,7 @@ endmodule</pre>
 
 ### ⏹️ Technology View
 
-![Image]()
+![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Technology%20view.jpg)
 
 ---
 
@@ -267,13 +267,25 @@ endmodule</pre>
 
 ![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Post%20synthesis.jpg)
 
+---
+
 ### ⏱️ Timing Summary
 
 ![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/design%20timing%20summary.jpg)
 
+---
+
 ### ⚡ Power Summary
 
 ![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Power%20Summary.jpg)
+
+---
+
+## 💫 Implementation
+
+![image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Zedboard.jpg)
+
+[FPGA-Implementation Video]()
 
 
 
