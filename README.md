@@ -33,6 +33,8 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 
 ## ⚙️ Features
 
+- **FSM Stages**:
+  - `S0 → S1 → S2 → S3 → S4`
 - Detects the binary sequence: `1101`
 - Supports **overlapping** detections (e.g., input `11101101` detects **twice**)
 - Clean state transition logic for efficient implementation
