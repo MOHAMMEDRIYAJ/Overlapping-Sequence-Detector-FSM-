@@ -38,6 +38,7 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 - Detects the binary sequence: `1101`
 - Supports **overlapping** detections (e.g., input `11101101` detects **twice**)
 - Clean state transition logic for efficient implementation
+- Inputs the binary data in Sequential
 - Outputs a `detected` signal that goes high for **one clock cycle** when the pattern is found
 
 ---
@@ -79,10 +80,6 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 
 ---
 
-## ⚙️ State Diagram
-
-![image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/State%20Diagram.jpg)
-
 ## 🔁 FSM Transition Logic
 
 | Current State | Input | Next State | Output |
@@ -102,7 +99,13 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 
 ---
 
-## ⌨️ Design Code
+## ⚙️ State Diagram
+
+![image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/State%20Diagram.jpg)
+
+---
+
+## ⌨️ design.v
 
 <pre>module seq_dec(input clk,reset,data_in,output reg detected);
   reg [2:0] currentstate,nextstate;
@@ -229,26 +232,36 @@ endmodule</pre>
 
 ---
 
-## 💻 Simulation Demo
+## 💻 Simulation 
 
-| Input Sequence | Expected Output |
-|----------------|------------------|
-| `1101`         | 1                |
-| `11101101`     | 1 (twice)        |
-| `1101101`      | 1 (twice)        |
-
-🎥 [Demo Video](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/raw/refs/heads/main/Output/Zedboard%20output.mp4)<- Click here to download and watch our demo video!
-
-📸 **Waveform Screenshot**: ![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/waveform%20variables%20.jpg)
+📸 **Waveform**: ![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/waveform%20variables%20.jpg)
 ![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Waveform.jpg)
 
 ---
 
-## 🔍 Reports
+## 🔍 Reports Overview:
 
-### ⚙️ Schematic Design 
+### 📂 File Structure
+
+![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/File%20structure.jpg)
+
+---
+
+### ⚙️ Schematic View 
 
 ![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/schematic.jpg)
+
+### ⏹️ Technology View
+
+![Image]()
+
+---
+
+### 🔌 Pin Assignment
+
+![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Ports%20mapping%20.jpg)
+
+---
 
 ### ⛓️ Resource Utilization (Post-Implementation)
 
@@ -262,13 +275,9 @@ endmodule</pre>
 
 ![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Power%20Summary.jpg)
 
-## 🔌 Pin Assignment
 
-![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Ports%20mapping%20.jpg)
 
-## 📂 File Structure
 
-![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/File%20structure.jpg)
 
 
 
