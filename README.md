@@ -294,7 +294,7 @@ endmodule</pre>
 
 Mohammed Riyaj J, Bannari Amman Institute Of Technology ([LinkedIn](https://www.linkedin.com/in/mohammedriyaj786/))
 
-Vikash R, Bannari Amman Institute Of Technology
+Vikash R, Bannari Amman Institute Of Technology ([LinkedIn](https://www.linkedin.com/in/vikashr1409))
 
 ---
 
