@@ -27,7 +27,7 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
  S1: 1 matched (1)
  S2: 2 matched (11)
  S3: 3 matched (110)
- S4: Pattern detected</pre>
+ S4: Pattern detected (1101) </pre>
 
 ---
 
