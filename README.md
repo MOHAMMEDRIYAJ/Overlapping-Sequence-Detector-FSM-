@@ -14,6 +14,7 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 
  Problem Statement:
        Design an FSM that detects the binary sequence "1101" from a serial input stream. The detection should support overlapping sequences (e.g., input: 11101101 should detect twice).
+ Note : Use Mealy FSM
 
  Inputs:
  clk, reset
