@@ -1,9 +1,6 @@
-
-
 `timescale 1ns / 1ps
 
 module seq_dec_tb;
-
   reg clk;
   reg reset;
   reg data_in; 
@@ -34,12 +31,12 @@ module seq_dec_tb;
     #10 data_in = 1;
     #10 data_in = 1;
     #10 data_in = 0;
-    #10 data_in = 1;  // Detected 
+    #10 data_in = 1;  // => Detected 
     #10 data_in = 0;
     #10 data_in = 1;
     #10 data_in = 1;
     #10 data_in = 0;
-    #10 data_in = 1;  // Detected
+    #10 data_in = 1;  // => Detected
 
     #10 reset = 1;
     #10 reset = 0;
@@ -47,7 +44,7 @@ module seq_dec_tb;
     #10 data_in = 1;  
     #10 data_in = 1;
     #10 data_in = 0;
-    #10 data_in = 1;  // Detected
+    #10 data_in = 1;  // => Detected
 
     #20 $finish;
     end
