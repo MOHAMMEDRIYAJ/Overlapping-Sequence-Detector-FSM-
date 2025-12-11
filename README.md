@@ -45,7 +45,7 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 
 ## 🛠️ Specifications
 
-- Software: Vivado ML Edition (Standard) 2024.2
+- Software: AMD Vivado ML Edition (Standard) 2024.2
 - Hardware: ZedBoard Zynq-7000 ARM / FPGA SoC Development Board
 
 ---
