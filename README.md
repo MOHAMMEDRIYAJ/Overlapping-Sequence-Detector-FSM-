@@ -232,9 +232,9 @@ endmodule</pre>
 
 ---
 
-## 💻 Simulation 
+## 💻 Simulation Waveform:
 
-📸 **Waveform**: ![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/waveform%20variables%20.jpg)
+![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/waveform%20variables%20.jpg)
 ![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Waveform.jpg)
 
 ---
