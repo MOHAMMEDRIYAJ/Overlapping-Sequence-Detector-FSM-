@@ -295,9 +295,9 @@ FPGA-Implemented Video:
 
 ## 👥 Contributors
 
-Mohammed Riyaj J, Bannari Amman Institute Of Technology [[LinkedIn](https://www.linkedin.com/in/mohammedriyaj786/)]
+Mohammed Riyaj J, Bannari Amman Institute Of Technology [[LinkedIn](https://www.linkedin.com/in/mohammedriyaj786/)]  [[Github](https://github.com/MOHAMMEDRIYAJ)]
 
-Vikash R, Bannari Amman Institute Of Technology ([LinkedIn](https://www.linkedin.com/in/vikashr1409))
+Vikash R, Bannari Amman Institute Of Technology [[LinkedIn](https://www.linkedin.com/in/vikashr1409)]  [[Github](https://github.com/VIKASH-343)]
 
 ---
 
