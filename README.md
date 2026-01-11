@@ -243,29 +243,29 @@ endmodule</pre>
 
 ## 🔍 Reports Overview:
 
-### 📂 File Structure
+### 1. 📂 File Structure
 
 <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/File%20structure.jpg" width="30%" height="30%">
 
 ---
 
-### ⚙️ Schematic View 
+### 2. ⚙️ Schematic View 
 
 ![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/schematic.jpg)
 
-### ⏹️ Technology View
+### 3. ⏹️ Technology View
 
 ![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Technology%20view.jpg)
 
---
+---
 
-### 🔌 Pin Assignment
+### 4. 🔌 Pin Assignment
 
 ![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Ports%20mapping%20.jpg)
 
 ---
 
-### ⛓️ Resource Utilization (Post-Implementation)
+### 5. ⛓️ Resource Utilization (Post-Implementation)
 
 <p align="center">
  <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Post%20synthesis%20table.jpg" width="503"> 
@@ -274,13 +274,13 @@ endmodule</pre>
 
 ---
 
-### ⏱️ Timing Summary
+### 6. ⏱️ Timing Summary
 
 ![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/design%20timing%20summary.jpg)
 
 ---
 
-### ⚡ Power Summary
+### 7. ⚡ Power Summary
 
 ![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Power%20Summary.jpg)
 
