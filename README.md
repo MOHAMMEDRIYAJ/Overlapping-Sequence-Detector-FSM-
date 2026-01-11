@@ -82,18 +82,18 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 
 ## 🔁 FSM Transition Logic
 
-| Current State | Input | Next State | Output |
-|---------------|-------|------------|--------|
-| `S0`          | 1     | `S1`       | 0      |
-| `S0`          | 0     | `S0`       | 0      |
-| `S1`          | 1     | `S2`       | 0      |
-| `S1`          | 0     | `S0`       | 0      |
-| `S2`          | 0     | `S3`       | 0      |
-| `S2`          | 1     | `S2`       | 0      |
-| `S3`          | 1     | `S4`       | 0      |
-| `S3`          | 0     | `S0`       | 0      |
-| `S4`          | 1     | `S2`       | 1      |
-| `S4`          | 0     | `S0`       | 1      |
+| Current State | Input | Next State | CurrentOutput |
+|---------------|-------|------------|---------------|
+| `S0`          | 1     | `S1`       | 0             |
+| `S0`          | 0     | `S0`       | 0             |
+| `S1`          | 1     | `S2`       | 0             |
+| `S1`          | 0     | `S0`       | 0             |
+| `S2`          | 0     | `S3`       | 0             |
+| `S2`          | 1     | `S2`       | 0             |
+| `S3`          | 1     | `S4`       | 0             |
+| `S3`          | 0     | `S0`       | 0             |
+| `S4`          | 1     | `S2`       | 1             |
+| `S4`          | 0     | `S0`       | 1             |
 
 > 💡 **Note**: `S4` asserts the output (`detected = 1`) and immediately transitions based on the input for overlap handling.
 
@@ -233,8 +233,10 @@ endmodule</pre>
 ---
 
 ## 💻 Simulation Waveform:
-<img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/waveform%20variables%20.jpg" width="20%" height="50%">
-<img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Waveform.jpg" width="40%" height="50%">
+<p>
+ <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/waveform%20variables%20.jpg" width="50%" height="50%">
+ <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Waveform.jpg" width="50%" height="50%">
+</p>
 
 ---
 
