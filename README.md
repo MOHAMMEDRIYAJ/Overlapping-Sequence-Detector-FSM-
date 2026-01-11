@@ -109,7 +109,7 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 ### Verilog and Constraint Files
 
 <details>
-<summary><strong>Source</strong></summary>
+<summary><strong>Sources</strong></summary>
 
 <details>
 <summary><strong>design.v</strong></summary>
@@ -185,63 +185,53 @@ endmodule
 ```
 </details> 
 
+<details>
+<summary><strong>clockdivider.v</strong></summary>
+
+```verilog
+
+module clockdivider(c_out,clk,reset);
+  output reg c_out;
+  input clk,reset;
+  reg [27:0]count;
+  
+  always @(posedge clk or posedge reset)  
+    begin
+      
+      if(reset==1)begin
+            c_out<=0;
+            count<=0;
+        end
+        else if( count==100000000 )begin
+            count<=0;
+            c_out<=~c_out;
+        end
+        else begin
+            count<=count+1;
+        end
+      
+    end
+endmodule
+```
+
 </details>
 
----
+<details>
+<summary><strong>top_module.v</strong></summary>
 
-## 🔧 Testbench
+```verilog
 
-<pre>`timescale 1ns / 1ps
-module seq_dec_tb;
+module top_seq_dec(input  clk,input  reset,input data_in,output detected,output clkout);
+  wire c_out;
+  assign clkout=c_out;
+  clockdivider uut1(c_out,clk,reset);
+  seq_dec uut2(c_out,reset,data_in,detected);  
+endmodule
+```
 
-  reg clk;
-  reg reset;
-  reg data_in; 
-  wire detected;
- 
-  seq_dec uut (
-    .clk(clk),
-    .reset(reset),
-    .data_in(data_in),
-    .detected(detected)
-  );
+</details>
 
-  initial begin
-    clk = 0;
-    forever #5 clk = ~clk;  
-  end
-
- 
-  initial 
-  begin
-    $display("Time\tclk\treset\tdata_in\tdetected");
-    $monitor("%0t\t%b\t%b\t%b\t%b", $time, clk, reset, data_in, detected);
-
-    reset = 1;
-    data_in = 0;
-
-    #10 reset = 0; 
-    #10 data_in = 1;
-    #10 data_in = 1;
-    #10 data_in = 0;
-    #10 data_in = 1;  // Detected 
-    #10 data_in = 0;
-    #10 data_in = 1;
-    #10 data_in = 1;
-    #10 data_in = 0;
-    #10 data_in = 1;  // Detected
-
-    #10 reset = 1;
-    #10 reset = 0;
-
-    #10 data_in = 1;  
-    #10 data_in = 1;
-    #10 data_in = 0;
-    #10 data_in = 1;  // Detected
-
-    #20 $finish;
-    end
-endmodule</pre>
+</details>
 
 ---
 
