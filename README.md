@@ -267,8 +267,8 @@ endmodule</pre>
 ### ⛓️ Resource Utilization (Post-Implementation)
 
 <p align="center">
+ <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Post%20synthesis%20table.jpg" width="503"> 
  <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Post%20synthesis.jpg" width="500">
- <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Post%20synthesis%20table.jpg" width="503">
 </p>
 ---
 
