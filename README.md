@@ -257,7 +257,7 @@ endmodule</pre>
 
 ![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Technology%20view.jpg)
 
-----
+--
 
 ### 🔌 Pin Assignment
 
