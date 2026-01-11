@@ -106,9 +106,17 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 
 ---
 
-## ⌨️ design.v
+### Verilog and Constraint Files
 
-<pre>module seq_dec(input clk,reset,data_in,output reg detected);
+<details>
+<summary><strong>Source</strong></summary>
+
+<details>
+<summary><strong>design.v</strong></summary>
+ 
+```verilog
+
+module seq_dec(input clk,reset,data_in,output reg detected);
   reg [2:0] currentstate,nextstate;
   
   parameter S0=3'b000,S1=3'b001,S2=3'b010,S3=3'b011,S4=3'b100; 
@@ -173,7 +181,11 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
       
     endcase    
   end
-endmodule</pre>
+endmodule
+```
+</details> 
+
+</details>
 
 ---
 
