@@ -6,6 +6,7 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 <p align="center">
  <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Zedboard%20img.jpg" width="50%" height="50%">
 </p>
+
 ---
 
 ## ✏️ Problem Statement
@@ -301,7 +302,7 @@ Vikash R, Bannari Amman Institute Of Technology [[Linkedin](https://www.linkedin
 
 ---
 
-### Notes:
+### Note:
 
 Working on this project has enhanced my understanding of implementing complex digital circuits on FPGAs using Verilog. It also gave me valuable insight into breaking down complex logic into smaller, manageable parts and tackling them systematically, leading to a clearer vision of FPGA design. 
 
