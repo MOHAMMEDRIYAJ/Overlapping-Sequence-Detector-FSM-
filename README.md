@@ -3,9 +3,9 @@
 ## 📌 Project Overview
 
 This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to detect the binary pattern **"1101"** from a serial data stream. The FSM supports **overlapping sequence detection**, meaning it can identify multiple, possibly overlapping occurrences of the pattern.
-
-<img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Zedboard%20img.jpg" width="50%" height="50%">
-
+<p align="center">
+ <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Zedboard%20img.jpg" width="50%" height="50%">
+</p>
 ---
 
 ## ✏️ Problem Statement
