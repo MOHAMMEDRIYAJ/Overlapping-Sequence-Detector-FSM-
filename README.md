@@ -268,7 +268,7 @@ endmodule</pre>
 
 <p align="center">
  <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Post%20synthesis.jpg" width="500">
- <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Post%20synthesis%20table.jpg" width="500">
+ <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Post%20synthesis%20table.jpg" width="530">
 </p>
 ---
 
