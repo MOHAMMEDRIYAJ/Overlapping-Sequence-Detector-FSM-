@@ -288,7 +288,7 @@ endmodule</pre>
 
 <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Zedboard%20img.jpg" width="80%" height="80%">
 
-FPGA-Implementation Video:
+FPGA-Implemented Video:
 [Download Link](https://drive.google.com/file/d/1M2luUMGGGt-b-NWUNVjoAaKdrc7ZPfro/view?usp=drivesdk)
 
 ---
