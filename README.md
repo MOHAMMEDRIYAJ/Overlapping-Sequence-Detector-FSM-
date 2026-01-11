@@ -233,8 +233,8 @@ endmodule</pre>
 ---
 
 ## 💻 Simulation Waveform:
-<img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/waveform%20variables%20.jpg" width="30%" height="70%">
-<img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Waveform.jpg" width="50%" height="70%">
+<img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/waveform%20variables%20.jpg" width="20%" height="50%">
+<img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Waveform.jpg" width="40%" height="50%">
 
 ---
 
