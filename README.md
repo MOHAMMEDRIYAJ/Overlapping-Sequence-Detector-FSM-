@@ -257,7 +257,7 @@ endmodule</pre>
 
 ![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Technology%20view.jpg)
 
----
+----
 
 ### 🔌 Pin Assignment
 
@@ -271,6 +271,7 @@ endmodule</pre>
  <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Post%20synthesis%20table.jpg" width="503"> 
  <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Post%20synthesis.jpg" width="500">
 </p>
+
 ---
 
 ### ⏱️ Timing Summary
