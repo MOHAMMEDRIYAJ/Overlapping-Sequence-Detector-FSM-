@@ -1,4 +1,4 @@
-<img width="1344" height="561" alt="image" src="https://github.com/user-attachments/assets/ce0d2fd2-b8ea-43d4-8419-295969d0d274" /># 🔍 1101 Overlapping Sequence Detector FSM
+# 🔍 1101 Overlapping Sequence Detector FSM
 
 ## 📌 Project Overview
 
