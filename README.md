@@ -244,7 +244,7 @@ endmodule</pre>
 
 ### 📂 File Structure
 
-![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/File%20structure.jpg)
+<img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/File%20structure.jpg" width="50%" >
 
 ---
 
