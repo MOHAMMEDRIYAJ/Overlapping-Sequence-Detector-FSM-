@@ -106,7 +106,7 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 
 ---
 
-### Verilog and Constraint Files
+##  📂 Verilog and Constraints File
 
 <details>
 <summary><strong>Sources</strong></summary>
@@ -189,7 +189,6 @@ endmodule
 <summary><strong>clockdivider.v</strong></summary>
 
 ```verilog
-
 module clockdivider(c_out,clk,reset);
   output reg c_out;
   input clk,reset;
@@ -232,6 +231,65 @@ endmodule
 </details>
 
 </details>
+
+<details>
+<summary><strong>Simulaton</strong></summary>
+ 
+```verilog
+
+`timescale 1ns / 1ps
+
+module seq_dec_tb;
+  reg clk;
+  reg reset;
+  reg data_in; 
+  wire detected;
+ 
+  seq_dec uut (
+    .clk(clk),
+    .reset(reset),
+    .data_in(data_in),
+    .detected(detected)
+  );
+
+  initial begin
+    clk = 0;
+    forever #5 clk = ~clk;  
+  end
+
+ 
+  initial 
+  begin
+    $display("Time\tclk\treset\tdata_in\tdetected");
+    $monitor("%0t\t%b\t%b\t%b\t%b", $time, clk, reset, data_in, detected);
+
+    reset = 1;
+    data_in = 0;
+
+    #10 reset = 0; 
+    #10 data_in = 1;
+    #10 data_in = 1;
+    #10 data_in = 0;
+    #10 data_in = 1;  // => Detected 
+    #10 data_in = 0;
+    #10 data_in = 1;
+    #10 data_in = 1;
+    #10 data_in = 0;
+    #10 data_in = 1;  // => Detected
+
+    #10 reset = 1;
+    #10 reset = 0;
+
+    #10 data_in = 1;  
+    #10 data_in = 1;
+    #10 data_in = 0;
+    #10 data_in = 1;  // => Detected
+
+    #20 $finish;
+    end
+endmodule
+```
+</details> 
 
 ---
 
