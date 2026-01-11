@@ -234,7 +234,7 @@ endmodule</pre>
 
 ## 💻 Simulation Waveform:
 <p align="center">
-  <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/waveform%20variables%20.jpg" width="400">
+  ```<img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/waveform%20variables%20.jpg" width="400">
   <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Waveform.jpg" width="600">
 </p>
 
