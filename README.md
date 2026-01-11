@@ -90,10 +90,10 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 | `S1`          | 0     | `S0`       | 0      |
 | `S2`          | 0     | `S3`       | 0      |
 | `S2`          | 1     | `S2`       | 0      |
-| `S3`          | 1     | `S4`       | 1      |
+| `S3`          | 1     | `S4`       | 0      |
 | `S3`          | 0     | `S0`       | 0      |
-| `S4`          | 1     | `S2`       | 0      |
-| `S4`          | 0     | `S0`       | 0      |
+| `S4`          | 1     | `S2`       | 1      |
+| `S4`          | 0     | `S0`       | 1      |
 
 > 💡 **Note**: `S4` asserts the output (`detected = 1`) and immediately transitions based on the input for overlap handling.
 
