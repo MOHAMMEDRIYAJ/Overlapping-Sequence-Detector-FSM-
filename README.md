@@ -303,9 +303,9 @@ Vikash R, Bannari Amman Institute Of Technology [[Linkedin](https://www.linkedin
 
 We are grateful to our VLSI faculty for his consistent support and valuable guidance throughout the project.
 
-Dr.Elango Sekar S, [[Linkedin](https://www.linkedin.com/in/elango-sekar-8973b958/)]
+Dr.Elango Sekar S [[Linkedin](https://www.linkedin.com/in/elango-sekar-8973b958/)]
 
-Associate Professor,Department of ECE.
+Associate Professor,Department of ECE ,Bannari Amman Institute Of Technology.
 
 ---
 
