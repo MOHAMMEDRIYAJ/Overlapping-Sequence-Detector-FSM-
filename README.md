@@ -404,7 +404,7 @@ Associate Professor,Department of ECE ,Bannari Amman Institute Of Technology.
 
 ---
 
-### 📋 Skillset:
+### 📈 Learning Outcomes:
 
 Working on this project has enhanced my understanding of implementing complex digital circuits on FPGAs using Verilog. It also gave me valuable insight into breaking down complex logic into smaller, manageable parts and tackling them systematically, leading to a clearer vision of FPGA design. 
 
