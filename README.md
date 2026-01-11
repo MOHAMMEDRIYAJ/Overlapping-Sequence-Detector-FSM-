@@ -298,10 +298,13 @@ FPGA-Implemented Video:
 ## 👥 Team Members:
 
 Mohammed Riyaj J, Bannari Amman Institute Of Technology [[Linkedin](https://www.linkedin.com/in/mohammedriyaj786/)]  [[Github](https://github.com/MOHAMMEDRIYAJ)]
+
 Vikash R, Bannari Amman Institute Of Technology [[Linkedin](https://www.linkedin.com/in/vikashr1409)]  [[Github](https://github.com/VIKASH-343)]
 
-
-
+We are grateful to our VLSI faculty for his consistent support and valuable guidance throughout the project.
+Dr.Elango Sekar S, [[Linkedin](https://www.linkedin.com/in/elango-sekar-8973b958/)]
+Associate Professor,
+Department of ECE,
 ---
 
 ### Note:
