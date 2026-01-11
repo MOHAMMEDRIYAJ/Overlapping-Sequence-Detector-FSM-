@@ -111,6 +111,7 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 <details>
 <summary><strong>Sources</strong></summary>
 
+
 <details>
 <summary><strong>design.v</strong></summary>
  
