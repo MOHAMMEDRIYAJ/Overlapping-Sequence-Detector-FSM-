@@ -96,7 +96,7 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 | `S4`          | 1     | `S2`       | 1             |
 | `S4`          | 0     | `S0`       | 1             |
 
-> 💡 **Note**: `S4` asserts the output (`detected = 1`) and immediately transitions based on the input for overlap handling.
+=> 💡 **Note**: `S4` asserts the output (`detected = 1`) and immediately transitions based on the input for overlap handling.
 
 ---
 
@@ -238,7 +238,6 @@ endmodule</pre>
   <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Waveform.jpg" >
 </p>
 
-
 ---
 
 ## 🔍 Reports Overview:
@@ -268,7 +267,7 @@ endmodule</pre>
 ### 5. ⛓️ Resource Utilization (Post-Implementation)
 
 <p align="center">
- <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Post%20synthesis%20table.jpg" width="503"> 
+ <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Post%20synthesis%20table.jpg" width="502"> 
  <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Post%20synthesis.jpg" width="500">
 </p>
 
@@ -311,7 +310,7 @@ Associate Professor,Department of ECE ,Bannari Amman Institute Of Technology.
 
 ---
 
-### Note:
+### 📋 Note:
 
 Working on this project has enhanced my understanding of implementing complex digital circuits on FPGAs using Verilog. It also gave me valuable insight into breaking down complex logic into smaller, manageable parts and tackling them systematically, leading to a clearer vision of FPGA design. 
 
