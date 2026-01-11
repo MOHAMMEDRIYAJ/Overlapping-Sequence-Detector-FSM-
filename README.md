@@ -266,8 +266,8 @@ endmodule</pre>
 
 ### ⛓️ Resource Utilization (Post-Implementation)
 
-<img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Post%20synthesis.jpg" width="50%">
-<img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Post%20synthesis%20table.jpg" width="50%">
+<img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Post%20synthesis.jpg" width="500">
+<img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Post%20synthesis%20table.jpg" width="500">
 
 ---
 
@@ -285,7 +285,7 @@ endmodule</pre>
 
 ## 💫 Implementation
 
-![image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Zedboard%20img.jpg)
+<img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Zedboard%20img.jpg" width="80%" height="80%">
 
 [FPGA-Implementation Video](https://drive.google.com/file/d/1M2luUMGGGt-b-NWUNVjoAaKdrc7ZPfro/view?usp=drivesdk)
 
