@@ -111,7 +111,6 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 <details>
 <summary><strong>Sources</strong></summary>
 
-
 <details>
 <summary><strong>design.v</strong></summary>
  
@@ -294,6 +293,36 @@ module seq_dec_tb;
 endmodule
 ```
 </details> 
+</details>
+
+<details>
+<summary><strong>Constraints</strong></summary>
+<details>
+<summary><strong>constraints.xdc</strong></summary>
+ ```
+ create_clock -period 10.000 -name clk -waveform {0.000 5.000} [get_ports clk]
+create_generated_clock -name uut1/CLK -source [get_ports clk] -divide_by 100000000 [get_pins uut1/c_out_reg/Q]
+create_clock -period 1000000000.000 -name VIRTUAL_uut1/CLK -waveform {0.000 500000000.000}
+set_input_delay -clock [get_clocks VIRTUAL_uut1/CLK] -min -add_delay 2.000 [get_ports data_in]
+set_input_delay -clock [get_clocks VIRTUAL_uut1/CLK] -max -add_delay 2.000 [get_ports data_in]
+set_input_delay -clock [get_clocks clk] -min -add_delay 2.000 [get_ports reset]
+set_input_delay -clock [get_clocks clk] -max -add_delay 2.000 [get_ports reset]
+set_input_delay -clock [get_clocks VIRTUAL_uut1/CLK] -min -add_delay 2.000 [get_ports reset]
+set_input_delay -clock [get_clocks VIRTUAL_uut1/CLK] -max -add_delay 2.000 [get_ports reset]
+set_output_delay -clock [get_clocks VIRTUAL_uut1/CLK] -min -add_delay 0.000 [get_ports detected]
+set_output_delay -clock [get_clocks VIRTUAL_uut1/CLK] -max -add_delay 2.000 [get_ports detected]
+set_property PACKAGE_PIN Y9 [get_ports clk]
+set_property PACKAGE_PIN U14 [get_ports clkout]
+set_property PACKAGE_PIN M15 [get_ports data_in]
+set_property PACKAGE_PIN U19 [get_ports detected]
+set_property PACKAGE_PIN H17 [get_ports reset]
+set_property IOSTANDARD LVCMOS18 [get_ports clk]
+set_property IOSTANDARD LVCMOS18 [get_ports clkout]
+set_property IOSTANDARD LVCMOS18 [get_ports data_in]
+set_property IOSTANDARD LVCMOS18 [get_ports detected]
+set_property IOSTANDARD LVCMOS18 [get_ports reset]
+ ```
+</details>
 </details>
 
 ---
