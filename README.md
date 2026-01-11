@@ -234,6 +234,9 @@ endmodule
 
 <details>
 <summary><strong>Simulaton</strong></summary>
+
+<details>
+<summary><strong>Testbench</strong></summary>
  
 ```verilog
 
@@ -290,6 +293,7 @@ module seq_dec_tb;
 endmodule
 ```
 </details> 
+</details>
 
 ---
 
