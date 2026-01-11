@@ -1,4 +1,4 @@
-# 🔍 1101 Overlapping Sequence Detector FSM
+<img width="1344" height="561" alt="image" src="https://github.com/user-attachments/assets/ce0d2fd2-b8ea-43d4-8419-295969d0d274" /># 🔍 1101 Overlapping Sequence Detector FSM
 
 ## 📌 Project Overview
 
@@ -234,9 +234,10 @@ endmodule</pre>
 
 ## 💻 Simulation Waveform:
 <p align="center">
- <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/waveform%20variables%20.jpg" width="50%" height="50%">
- <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Waveform.jpg" width="50%" height="50%">
+  <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/waveform%20variables%20.jpg" width="400">
+  <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Waveform.jpg" width="400">
 </p>
+
 
 ---
 
