@@ -381,10 +381,10 @@ set_property IOSTANDARD LVCMOS18 [get_ports reset]
 
 ## 💫 Implementation
 
-<img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Zedboard%20img.jpg" width="80%" height="80%">
+<img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Output%20Image.png" width="80%" height="80%">
 
 FPGA-Implemented Video:
-[Download Link](https://drive.google.com/file/d/1M2luUMGGGt-b-NWUNVjoAaKdrc7ZPfro/view?usp=drivesdk)
+[Google Drive Link](https://drive.google.com/file/d/1M2luUMGGGt-b-NWUNVjoAaKdrc7ZPfro/view?usp=drivesdk)
 
 ---
 
