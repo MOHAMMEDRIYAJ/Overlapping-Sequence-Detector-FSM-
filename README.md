@@ -299,8 +299,7 @@ endmodule
 <summary><strong>Constraints</strong></summary>
 <details>
 <summary><strong>constraints.xdc</strong></summary>
- ```
- create_clock -period 10.000 -name clk -waveform {0.000 5.000} [get_ports clk]
+create_clock -period 10.000 -name clk -waveform {0.000 5.000} [get_ports clk]
 create_generated_clock -name uut1/CLK -source [get_ports clk] -divide_by 100000000 [get_pins uut1/c_out_reg/Q]
 create_clock -period 1000000000.000 -name VIRTUAL_uut1/CLK -waveform {0.000 500000000.000}
 set_input_delay -clock [get_clocks VIRTUAL_uut1/CLK] -min -add_delay 2.000 [get_ports data_in]
@@ -321,7 +320,6 @@ set_property IOSTANDARD LVCMOS18 [get_ports clkout]
 set_property IOSTANDARD LVCMOS18 [get_ports data_in]
 set_property IOSTANDARD LVCMOS18 [get_ports detected]
 set_property IOSTANDARD LVCMOS18 [get_ports reset]
- ```
 </details>
 </details>
 
@@ -398,7 +396,7 @@ Vikash R, Bannari Amman Institute Of Technology [[Linkedin](https://www.linkedin
 
 We are grateful to our VLSI faculty for his consistent support and valuable guidance throughout the project.
 
-Dr.Elango Sekar S [[Linkedin](https://www.linkedin.com/in/elango-sekar-8973b958/)]  [[Github](https://github.com/eceelango)]
+Dr.Elango Sekar [[Linkedin](https://www.linkedin.com/in/elango-sekar-8973b958/)]  [[Github](https://github.com/eceelango)]
 
 Associate Professor,Department of ECE ,Bannari Amman Institute Of Technology.
 
