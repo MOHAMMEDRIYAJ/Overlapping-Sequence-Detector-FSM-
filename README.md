@@ -367,7 +367,7 @@ set_property IOSTANDARD LVCMOS18 [get_ports reset]
 
 ### 6. ⏱️ Timing Summary
 
-![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/design%20timing%20summary.jpg)
+![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/timing%20summary.jpg)
 
 ---
 
