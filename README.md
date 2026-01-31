@@ -371,12 +371,6 @@ set_property IOSTANDARD LVCMOS18 [get_ports reset]
 
 ---
 
-### 7. ⚡ Power Summary
-
-![Image](https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Power%20Summary.jpg)
-
----
-
 ## 💫 Implementation
 
 <img src="https://github.com/MOHAMMEDRIYAJ/Overlapping-Sequence-Detector-FSM-/blob/main/Images/Output%20Image.png" width="80%" height="80%">
