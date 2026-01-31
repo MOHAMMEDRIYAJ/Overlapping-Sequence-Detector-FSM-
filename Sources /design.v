@@ -1,7 +1,7 @@
 module seq_dec(input clk,reset,data_in,output reg detected);
   reg [2:0] currentstate,nextstate;
   
-  parameter S0=3'b000,S1=3'b001,S2=3'b010,S3=3'b011,S4=3'b100; 
+  localparam S0=3'b000,S1=3'b001,S2=3'b010,S3=3'b011,S4=3'b100; 
   
   always @(posedge clk or posedge reset) begin
     if (reset)
