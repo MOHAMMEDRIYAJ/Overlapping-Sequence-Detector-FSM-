@@ -119,26 +119,17 @@ This project implements a **Finite State Machine (FSM)** in **Verilog HDL** to d
 module seq_dec(input clk,reset,data_in,output reg detected);
   reg [2:0] currentstate,nextstate;
   
-  parameter S0=3'b000,S1=3'b001,S2=3'b010,S3=3'b011,S4=3'b100; 
+  localparam S0=3'b000,S1=3'b001,S2=3'b010,S3=3'b011,S4=3'b100; 
   
   always @(posedge clk or posedge reset) begin
     if (reset)
-      begin
         currentstate<=S0; 
-        detected<=1'b0;
-      end
     else
-      begin
-        currentstate<=nextstate;
-        if(currentstate==S3 && data_in==1)
-          detected<=1'b1;
-        else
-          detected<=1'b0;
-      end
+      currentstate<=nextstate;
   end
   
   always @(*) begin
-    
+    detected <= 0;
     case(currentstate)
      
       S0:
@@ -171,6 +162,7 @@ module seq_dec(input clk,reset,data_in,output reg detected);
         end
       S4:
         begin
+          detected <= 1;
           if(data_in)
             nextstate=S2;
           else
